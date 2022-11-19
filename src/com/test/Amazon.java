@@ -26,6 +26,22 @@ public class Amazon {
 			throw new ProductNotFoundException();
 
 		}
+
+		
+		
+		li.add("Samsung");
+		li.add("Vivo");
+		li.add("Oppo");
+		li.add("Honor");
+		
+		if (li.contains(str)) {
+			System.out.println("Product Found");
+			
+		} else {
+			
+			throw new ProductNotFoundException();
+
+		}
 		
 		
 		
